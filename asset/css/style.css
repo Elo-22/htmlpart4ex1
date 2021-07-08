@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,75px);
+    grid-gap: 10px;
+    gap: 10px;
+}
+
+.one {
+    background-color: rgb(139, 13, 13);
+}
+.two {
+    background-color: turquoise;
+}
+.three {
+    background-color: rgb(30, 128, 118);
+}
+.for {
+    background-color: rgb(114, 55, 124);
+}
+.five {
+    background-color: rgb(245, 111, 21);
+}
+.six {
+    background-color: rgb(138, 138, 240);
+}
+.seven {
+    background-color: crimson;
+}
+.eigth {
+    background-color: rgb(70, 168, 70);
+}
+.nine {
+    background-color: rgb(65, 65, 104);
+}
+
+section>div {
+    color: rgb(255, 255, 255);
+    padding: 20px;
